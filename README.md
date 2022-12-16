@@ -10,8 +10,6 @@ A newsletter and social media links will provide furtger engagement and directio
 
 ## Features 
 
-### Existing Features
-
 - __Navigation Bar__
 
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
@@ -21,57 +19,53 @@ A newsletter and social media links will provide furtger engagement and directio
 
 - __Game Engine Introduction__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The Game Engine Introduction section on the home page gives a brief rundown on why you would want to use a game engine vs building a bespoke set of tools. Listed after are some of the essential features of a game engine that help make a game developers job easier and should be part of any game engine they consider using.
 
 ![Game Engine Intro Page](screenshots/screenshot-game-engine-intro.jpg)
 
 - __Gallery of Game Examples and Engines__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - Some examples of games that have been made in 3 game engines - Unreal, Unity and Godot - let the user get some context on how even AAA game developers use open source game engines. A link to each engines page is provided underneath to learn more. 
 
 ![Game Gallery and Engines](screenshots/screenshot-gallery-games.jpg)
 
 - __Engine Specific Information__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - Unreal, Unity and Godot each have their own page listing game examples, a rundown of their features, their strengths and weaknesses, images of their editors and a youtube embed of a tutorial to get a jumpstart into using them.
 
 ![Engine Specific Info](screenshots/screenshot-engine-specific.jpg)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for Dream Machines, twitter, instagram, facebook and youtube.
+  - These social media platforms would be use to extend the amount of information that could be provided and build a community around game engine resources and answering questions.
 
 ![Footer](screenshots/screenshot-footer.jpg)
 
 - __Youtube Tutorial Embed for Each Engine__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - These youtube videos are a fantastic starting point for anyone interested in the game engines. The videos are embedded to allow for quick viewing without leaving the website.
 
 ![Youtube Embed](screenshots/screenshot-video-embed.jpg)
 
 - __Newsletter Subscription Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - A newsletter form allows the user to receieve emails with updates on new information, tips and tutorials for general game engine knowledge and news.
 
 ![Newsletter Subscription](screenshots/screenshot-newsletter.jpg)
 
 - __Responsive Design__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - The website works across desktop, tablet and mobile, with the multi column layouts collapsing to a single column layout on smaller screens for a better reading experience.
 
 ![Tablet](screenshots/screenshot-tablet.jpg)
-![Phone](screenshots/screenshot-phone.jpg)
 
 
 ## Testing 
 
 I have tested the website using chromes developer tools to emulate different screen sizes and environments. This helped me to get feedback on how my website displayed at various screen sizes and use media queries and responsive CSS to ensure a consistent standard of user experience across desktop, phone and tablets.
 
+![Phone](screenshots/screenshot-phone.jpg)
 
 ### Validator Testing 
 
@@ -80,21 +74,14 @@ I have tested the website using chromes developer tools to emulate different scr
 - CSS
   - No errors were found when passing through the official Jigsaw) validator
 
-### Unfixed Bugs
-
- 
-
 ## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
+The live link can be found here - https://adam-daly.github.io/Project-1-HTML-CSS-Essentials/
 
 ## Credits 
 
@@ -120,7 +107,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 - Tunic: https://store.epicgames.com/en-US/p/tunic
 - Deponia:  https://www.nintendo.co.uk/Games/Nintendo-Switch-games/Deponia-1544877.html
 - Gun Toting Cats: https://kit9studio.itch.io/gun-toting-cats
-- Godot page 1 :appimagehub.com/p/1255865
+- Godot page 1 https://appimagehub.com/p/1255865
 - Godot page 2 https://dev.to/elenadotnet/i-want-to-make-videogames-where-do-i-start-2fc5
 - Unity page 1 https://www.theverge.com/2020/4/14/21219609/- video-game-tools-editor-developer-make-price-free-programming
 - Unity page 2 https://www.megavoxels.com/learn/what-is-the-unity-game-engine/
