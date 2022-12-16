@@ -9,6 +9,8 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
+    max-width: 1920px;
+    margin: auto;
 }
 
 /* headings and logo*/
@@ -58,7 +60,7 @@ nav{
 /* main, banner image and text */
 
 main{
-    clear: both;
+
 }
 
 #banner {
@@ -66,8 +68,6 @@ main{
     width: 100%;
     overflow: hidden;
     position: relative;
-    background-color: rgb(255, 0, 0);
-    background-blend-mode: multiply;
 }
 
 #banner-text {
@@ -79,7 +79,7 @@ main{
     position: absolute;
 }
 
-#banner-text h2, h3{
+#banner-text h2, #banner-text h3{
     color: #ffffff;
 }
 
@@ -88,3 +88,56 @@ main{
     width: 100%;
     background: url('../images/banner.jpg') no-repeat center center;
 }
+
+#max-width-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#why-engine {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#why-engine p{
+    padding: 10px;
+}
+
+#why-engine img{
+    width: 100%;
+
+}
+
+.half-left-col{
+    padding-right:40px;
+    width: 50%; 
+}
+
+.half-right-col{
+    width: 50%;
+}
+
+#what-engine {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#what-engine p{
+    padding: 10px;
+}
+
+.thirds-left-col{
+    padding-right:40px;
+    width: 33%; 
+}
+
+.thirds-mid-col {
+    width: 33%;
+}
+
+.thirds-right-col{
+    width: 33%;
+}
+
