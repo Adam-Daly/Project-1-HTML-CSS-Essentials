@@ -1,3 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+/* headings and logo*/
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+#logo {
+    float: left;
+    font-size: 120%;
+    margin: 20px 0 10px 40px;
+}
+
+/* navigation */
+
+nav{
+    clear:both;
+    padding-bottom: 20px;
+}
+
+#menu {
+    padding-bottom: 20px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* main, banner image and text */
+
+main{
+    clear: both;
+}
+
+#banner {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(255, 0, 0);
+    background-blend-mode: multiply;
+}
+
+#banner-text {
+    font-size: 100%;
+    height: 150px;
+    width: 300px;
+    bottom: 40px;
+    right: 50px;
+    position: absolute;
+}
+
+#banner-text h2, h3{
+    color: #ffffff;
+}
+
+#banner-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/banner.jpg') no-repeat center center;
 }
