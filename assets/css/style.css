@@ -35,11 +35,11 @@ h1, h2, h3, h4 {
 
 nav{
     clear:both;
-    padding-bottom: 20px;
+    padding-bottom: 1%;
 }
 
 #menu {
-    padding-bottom: 20px;
+    padding-bottom: 1%;
 }
 
 #menu li {
@@ -101,9 +101,7 @@ main{
 }
 
 #why-engine {
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
+    margin: 10px;
 }
 
 #why-engine p{
@@ -115,21 +113,23 @@ main{
 }
 
 .half-left-col{
-    padding-right:40px;
+    padding-right:2%;
     width: 50%; 
 }
 
 .half-right-col{
     width: 50%;
+    margin-right:1%;
 }
 
 #what-engine {
+    margin: 10px;
 }
 
 .flex-container{
     display: flex;
     justify-content: space-evenly;
-    margin: 20px;   
+    margin: 1%;   
 }
 
 #what-engine p{
@@ -151,12 +151,12 @@ main{
 }
 
 .thirds-left-col{
-    padding-right:40px;
+    padding-right:2%;
     width: 33%; 
 }
 
 .thirds-mid-col {
-    padding-right:40px;
+    padding-right:2%;
     width: 33%;
 }
 
@@ -167,7 +167,7 @@ main{
 #show-engines-button{
     display: flex;
     justify-content:center;
-    margin: 20px;
+    margin: 1%;
 }
 
 #show-engines-button a{
@@ -180,13 +180,14 @@ main{
 
 .big-blue-button{
     background-color: #2b4d8a;
-    padding: 20px;
+    padding: 1%;
+    text-align: center;
 }
 
 #game-examples-gallery{
     display: flex;
     justify-content:center;
-    margin: 20px;
+    margin: 1%;
 }
 
 #game-examples-gallery img{
@@ -195,8 +196,8 @@ main{
 
 #engine-logos{
     display: flex;
-    justify-content:center;
-    margin: 20px;
+    justify-content: space-between;
+    margin: 1%;
 }
 
 #engine-logos img{
@@ -210,7 +211,7 @@ main{
 #show-newsletter-button{
     display: flex;
     justify-content:center;
-    margin: 20px;
+    margin: 1%;
 }
 
 #show-newsletter-button a{
@@ -226,12 +227,12 @@ main{
 footer{
     display: flex;
     justify-content:center;
-    margin: 40px;
+    margin: 2%;
 }
 
 #copyright{
     font-weight: 600;
-    padding-right: 40px;
+    padding-right: 2%;
 }
 
 #social-links {
@@ -244,4 +245,29 @@ footer{
 }
 #social-links a{
     text-decoration: none;
+}
+
+/* mobile media adjustments */
+@media screen and (max-width: 800px) {
+
+    .flex-container{
+        display: block;
+    }
+
+    .half-left-col{
+        width: 100%; 
+    }
+
+    .half-right-col{
+        width: 100%;
+    }
+
+    #what-engine ul{
+        width: 100%;
+    }
+
+    #social-links > li {
+        display: inline;
+        margin: 0px;
+    }
 }
