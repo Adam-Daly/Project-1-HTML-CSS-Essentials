@@ -247,19 +247,52 @@ footer{
     text-decoration: none;
 }
 
-/* form page */
+/* Game Engine Specific Pages */
 
-p{
-    margin-bottom: 15px;
-    padding: 0;
-    font-style: italic;
-    font-size: 90%;
+#engine-header {
+    margin: 1%;
 }
+
+#engine-features {
+    margin: 10px;
+}
+
+#engine-features p{
+    padding: 10px;
+}
+
+#engine-features img{
+    width: 100%;
+}
+
+#engine-features ul{
+    padding-left: 0;
+    width: 50%;
+    list-style-type: none;
+}
+
+#engine-features li{
+    padding: 5px;
+    list-style-position: inside;
+}
+
+#youtube-player{
+    display: flex;
+    justify-content: center;
+}
+/* form page */
   
 form{
     width: 100%;
     margin: 2%;
     padding: 2%;
+}
+
+form p{
+    margin-bottom: 15px;
+    padding: 0;
+    font-style: italic;
+    font-size: 90%;
 }
   
 input {
@@ -331,6 +364,10 @@ input[type="submit"]:hover{
     }
 
     #what-engine ul{
+        width: 100%;
+    }
+
+    #engine-features ul{
         width: 100%;
     }
 
