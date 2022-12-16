@@ -19,7 +19,7 @@ p{
 
 /* headings and logo*/
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Merriweather', serif;
     text-transform: uppercase;
     color: #000000;
@@ -112,7 +112,6 @@ main{
 
 #why-engine img{
     width: 100%;
-
 }
 
 .half-left-col{
@@ -125,13 +124,30 @@ main{
 }
 
 #what-engine {
+}
+
+.flex-container{
     display: flex;
-    justify-content: space-between;
-    margin: 20px;
+    justify-content: space-evenly;
+    margin: 20px;   
 }
 
 #what-engine p{
     padding: 10px;
+}
+
+#what-engine ul{
+    padding-left: 0;
+    width: 50%;
+}
+
+#what-engine li{
+    padding: 5px;
+    list-style-position: inside;
+}
+
+#what-engine img{
+    width: 100%;
 }
 
 .thirds-left-col{
@@ -203,4 +219,29 @@ main{
 
 #show-newsletter-button h3{
     color: #fff;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content:center;
+    margin: 40px;
+}
+
+#copyright{
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+#social-links {
+    text-align: center;
+}
+
+#social-links > li {
+    display: inline;
+    margin: 20px;
+}
+#social-links a{
+    text-decoration: none;
 }
