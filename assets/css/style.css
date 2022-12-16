@@ -13,6 +13,10 @@ body {
     margin: auto;
 }
 
+p{
+    font-size: 120%;
+}
+
 /* headings and logo*/
 
 h1, h2, h3 {
@@ -89,6 +93,8 @@ main{
     background: url('../images/banner.jpg') no-repeat center center;
 }
 
+/* main text and img content*/
+
 #max-width-container {
     max-width: 1000px;
     margin: auto;
@@ -134,6 +140,7 @@ main{
 }
 
 .thirds-mid-col {
+    padding-right:40px;
     width: 33%;
 }
 
@@ -141,3 +148,59 @@ main{
     width: 33%;
 }
 
+#show-engines-button{
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+}
+
+#show-engines-button a{
+    text-decoration: none;
+}
+
+#show-engines-button h3{
+    color: #fff;
+}
+
+.big-blue-button{
+    background-color: #2b4d8a;
+    padding: 20px;
+}
+
+#game-examples-gallery{
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+}
+
+#game-examples-gallery img{
+    width: 100%;
+}
+
+#engine-logos{
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+}
+
+#engine-logos img{
+    width: 100%;
+}
+
+#engine-logos a:hover{
+    opacity: 0.5;
+}
+
+#show-newsletter-button{
+    display: flex;
+    justify-content:center;
+    margin: 20px;
+}
+
+#show-newsletter-button a{
+    text-decoration: none;
+}
+
+#show-newsletter-button h3{
+    color: #fff;
+}
