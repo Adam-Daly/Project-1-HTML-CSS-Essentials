@@ -1,4 +1,4 @@
-# Love Running
+# Dream Machines
 
 In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
 
@@ -110,31 +110,30 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Home page text was taken from https://medium.com/@jaredehalpern/the-what-and-why-of-game-engines-f2b89a46d01f
+- Engine specific text was taken from https://gamedevacademy.org/best-game-engines/
+- The icons in the footer were taken from [Feather Icons](https://feathericons.com/ )
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- Banner Image: https://www.storyblocks.com/video/stock/woman-game-sotware-developer-testing-new-game-overtime-at-night-in-start-up-creative-agency-company-tired-worker-developing-new-online-video-games-on-pc-with-modern-technology-b0hfrjn0dkjmzsg2h
+- Unity Logo: https://commons.wikimedia.org/wiki/File:Unity_Technologies_logo.svg
+- Godot Logo: https://godotengine.org/press
+- Unreal Logo: https://commons.wikimedia.org/wiki/File:Unreal_Engine_Logo.svg
+- Fortnite: https://www.playstation.com/en-us/games/fortnite/
+- Hearthstone: https://www.ign.com/games/hearthstone-heroes-of-warcraft
+- Sonic Colors https://www.ign.com/games/sonic-colors
+- Newsletter Splash Image: https://thenextweb.com/news/engine-dominating-gaming-industry-right-now
+- Genshin Impact: https://www.playstation.com/en-us/games/genshin-impact/
+- Gears 5: https://www.dailystar.co.uk/tech/gaming/gears-5-review-embargo-gears-19338697
+- Stray: https://www.playstation.com/en-ie/games/stray/
+- Tunic: https://store.epicgames.com/en-US/p/tunic
+- Deponia:  https://www.nintendo.co.uk/Games/Nintendo-Switch-games/Deponia-1544877.html
+- Gun Toting Cats: https://kit9studio.itch.io/gun-toting-cats
+- Godot page 1 :appimagehub.com/p/1255865
+- Godot page 2 https://dev.to/elenadotnet/i-want-to-make-videogames-where-do-i-start-2fc5
+- Unity page 1 https://www.theverge.com/2020/4/14/21219609/- video-game-tools-editor-developer-make-price-free-programming
+- Unity page 2 https://www.megavoxels.com/learn/what-is-the-unity-game-engine/
+- Unreal page 1 https://docs.unrealengine.com/5.0/en-US/level-editor-in-unreal-engine/
+- Unreal page 2 https://docs.unrealengine.com/5.0/en-US/tools-and-editors-in-unreal-engine/
 
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
